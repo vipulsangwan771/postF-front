@@ -95,7 +95,7 @@ const Home = () => {
     try {
       setIsSubmitting(true);
 
-      await fetch('http://localhost:5000/api/download-cv', {
+      await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/download-cv`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, purpose }),
