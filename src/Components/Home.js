@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { ReactTyped as Typed } from 'react-typed';
 import { Link } from 'react-router-dom';
 import profile from '../assets/img/pf.avif';
-import cvFile from '../assets/img/VipulResume.pdf';
+import cvFile from '../assets/img/vipul_cv.pdf';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
