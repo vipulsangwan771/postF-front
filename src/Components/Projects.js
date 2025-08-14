@@ -6,6 +6,8 @@ import image1 from './image/image.png';
 import image2 from './image/image2.png';
 import image3 from './image/imag3.png';
 import image4 from './image/image4.png';
+import imageswap from './image/bookswap.png';
+import crypto from './image/crypto.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -50,6 +52,26 @@ const Projects = () => {
       category: 'web',
       github: 'https://github.com/vipulsangwan771/react-watches',
       demo: 'https://react-watches.onrender.com'
+    },
+    {
+      id: 5,
+      title: 'BookSwap Marketplace',
+      description: 'A modern and user-friendly online marketplace for book lovers to buy, sell, and swap books seamlessly. Designed to connect readers, reduce book waste, and promote a sustainable reading culture with an intuitive interface and smooth transactions.',
+      image: imageswap,
+      technologies: ['React', 'React Router', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
+      category: 'web',
+      github: 'https://github.com/vipulsangwan771/bookswap-front',
+      demo: 'https://bookswap-front.onrender.com/'
+    },
+    {
+      id: 6,
+      title: 'Crypto Tracker',
+      description: 'A real-time cryptocurrency tracking application that provides live market data, price charts, and trends for multiple coins. Designed with a clean, responsive interface to help users make informed investment decisions quickly and efficiently.',
+      image: crypto,
+      technologies: ['React', 'React Router', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'CoinGecko API'],
+      category: 'web',
+      github: 'https://github.com/vipulsangwan771/Crypto_front',
+      demo: 'https://crypto-front-8l8t.onrender.com'
     }
 
   ];
